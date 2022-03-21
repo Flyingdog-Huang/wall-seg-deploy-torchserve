@@ -1,0 +1,13 @@
+{
+  "createdOn": "16/02/2022 15:51:53",
+  "runtime": "python",
+  "model": {
+    "modelName": "wall_seg_unet",
+    "serializedFile": "unet.pth",
+    "handler": "wall_segmen_handler.py",
+    "modelFile": "wall_seg_unet_model.py",
+    "modelVersion": "1.0",
+    "requirementsFile": "requirements.txt"
+  },
+  "archiverVersion": "0.4.0"
+}

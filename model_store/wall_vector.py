@@ -237,6 +237,7 @@ def wall_vector(img,img_pre):
             y_max=max(y1,y2)
             x_min=min(x1,x2)
             x_max=max(x1,x2)
+
             # 垂直wall line -- x水平扩展
             if x1==x2: 
                 # 获取X的方向
@@ -302,6 +303,7 @@ def wall_vector(img,img_pre):
                             if is_line==1:
                                 new_line_map[y_line,x_line]=new_no
                                 dis_k_line_map[y_line,x_line]=0 
+            
             # 水平扩展
             elif y1==y2:
                 k_direc=1 if y_d>y1 else -1
@@ -366,6 +368,7 @@ def wall_vector(img,img_pre):
                             if is_line==1:
                                 new_line_map[y_line,x_line]=new_no
                                 dis_k_line_map[y_line,x_line]=0 
+            
             # 斜边扩展
             else:
                 xk_direc=1 if x_d>x1 else -1
@@ -567,7 +570,7 @@ def wall_vector(img,img_pre):
                 wall_vector['sPoint']=[x_e_vector,y_e_vector]
                 wall_vector['ePoint']=[x_s_vector,y_s_vector]
                 wall_vector['width']=width_wall
-                wall_vector['height']='default'
+                wall_vector['height']=0
                 wall_vector['isStructural']=True
                 wall_vectors.append(json.dumps(wall_vector))
         

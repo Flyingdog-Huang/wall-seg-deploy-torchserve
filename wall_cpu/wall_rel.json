@@ -1,0 +1,1614 @@
+[
+  {
+    "sPoint": [
+      350.0,
+      2664.0
+    ],
+    "ePoint": [
+      329.0,
+      2664.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      399.0,
+      2691.5
+    ],
+    "ePoint": [
+      288.0,
+      2691.5
+    ],
+    "width": 49,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      624.0,
+      2657.5
+    ],
+    "ePoint": [
+      610.0,
+      2657.5
+    ],
+    "width": 7,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      973.0,
+      2688.5
+    ],
+    "ePoint": [
+      582.0,
+      2688.5
+    ],
+    "width": 55,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      343.9999694824219,
+      2611.999755859375
+    ],
+    "ePoint": [
+      384.9999694824219,
+      2611.999755859375
+    ],
+    "width": 14,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      371.0,
+      2622.0
+    ],
+    "ePoint": [
+      358.0,
+      2622.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      665.0,
+      2601.5
+    ],
+    "ePoint": [
+      631.0,
+      2601.5
+    ],
+    "width": 21,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      641.0,
+      2612.0
+    ],
+    "ePoint": [
+      641.0,
+      2618.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1730.0,
+      2544.5
+    ],
+    "ePoint": [
+      1717.0,
+      2544.5
+    ],
+    "width": 5,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1765.0,
+      2568.5
+    ],
+    "ePoint": [
+      1626.0,
+      2568.5
+    ],
+    "width": 43,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1296.0,
+      2544.5
+    ],
+    "ePoint": [
+      1283.0,
+      2544.5
+    ],
+    "width": 5,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1393.9998779296875,
+      2568.499755859375
+    ],
+    "ePoint": [
+      1247.9998779296875,
+      2568.499755859375
+    ],
+    "width": 43,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      720.9999389648438,
+      2373.999755859375
+    ],
+    "ePoint": [
+      588.9999389648438,
+      2373.999755859375
+    ],
+    "width": 42,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      627.0,
+      2395.0
+    ],
+    "ePoint": [
+      627.0,
+      2401.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      967.0,
+      2370.0
+    ],
+    "ePoint": [
+      1120.0,
+      2370.0
+    ],
+    "width": 48,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1105.9652099609375,
+      2400.302001953125
+    ],
+    "ePoint": [
+      1085.3668212890625,
+      2401.331787109375
+    ],
+    "width": 14,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      340.0,
+      2346.0
+    ],
+    "ePoint": [
+      340.0,
+      2352.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      420.0,
+      2376.5
+    ],
+    "ePoint": [
+      337.0,
+      2376.5
+    ],
+    "width": 49,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2059.0,
+      2320.0
+    ],
+    "ePoint": [
+      2053.0,
+      2320.0
+    ],
+    "width": 4,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2108.0,
+      2347.5
+    ],
+    "ePoint": [
+      1969.0,
+      2347.5
+    ],
+    "width": 51,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1772.0,
+      2320.5
+    ],
+    "ePoint": [
+      1766.0,
+      2320.5
+    ],
+    "width": 5,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1870.0,
+      2351.5
+    ],
+    "ePoint": [
+      1752.0,
+      2351.5
+    ],
+    "width": 57,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2059.0,
+      2151.5
+    ],
+    "ePoint": [
+      2053.0,
+      2151.5
+    ],
+    "width": 3,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2080.0,
+      2168.5
+    ],
+    "ePoint": [
+      2025.0,
+      2168.5
+    ],
+    "width": 31,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1751.0,
+      2013.0
+    ],
+    "ePoint": [
+      1731.0,
+      2013.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2056.0,
+      1989.0
+    ],
+    "ePoint": [
+      2056.0,
+      1995.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2080.0,
+      2016.0
+    ],
+    "ePoint": [
+      2004.0,
+      2016.0
+    ],
+    "width": 42,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1289.0,
+      1936.0
+    ],
+    "ePoint": [
+      1233.0,
+      1936.0
+    ],
+    "width": 20,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1099.0,
+      1947.0
+    ],
+    "ePoint": [
+      967.0,
+      1947.0
+    ],
+    "width": 42,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1005.0,
+      1968.0
+    ],
+    "ePoint": [
+      1005.0,
+      1974.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1520.0,
+      1722.5
+    ],
+    "ePoint": [
+      1205.0,
+      1722.5
+    ],
+    "width": 41,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1471.0,
+      1746.5
+    ],
+    "ePoint": [
+      1436.0,
+      1746.5
+    ],
+    "width": 7,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1173.0,
+      1702.0
+    ],
+    "ePoint": [
+      1173.0,
+      1722.0
+    ],
+    "width": 20,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2101.0,
+      1530.0
+    ],
+    "ePoint": [
+      2081.0,
+      1530.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1475.081298828125,
+      1120.513671875
+    ],
+    "ePoint": [
+      1473.919189453125,
+      1127.486572265625
+    ],
+    "width": 5,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1387.9998779296875,
+      1151.4998779296875
+    ],
+    "ePoint": [
+      1498.9998779296875,
+      1151.4998779296875
+    ],
+    "width": 49,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1113.0,
+      1129.5
+    ],
+    "ePoint": [
+      1016.0,
+      1129.5
+    ],
+    "width": 17,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1016.0,
+      1140.0
+    ],
+    "ePoint": [
+      1007.0,
+      1140.0
+    ],
+    "width": 4,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1008.0,
+      1136.5
+    ],
+    "ePoint": [
+      995.0,
+      1136.5
+    ],
+    "width": 3,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1113.0,
+      1160.5
+    ],
+    "ePoint": [
+      988.0,
+      1160.5
+    ],
+    "width": 45,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2101.0,
+      1054.0
+    ],
+    "ePoint": [
+      1934.0,
+      1054.0
+    ],
+    "width": 48,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2080.0,
+      1081.5
+    ],
+    "ePoint": [
+      2052.0,
+      1081.5
+    ],
+    "width": 7,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1660.0,
+      1054.5
+    ],
+    "ePoint": [
+      1514.0,
+      1054.5
+    ],
+    "width": 49,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1531.0,
+      1079.0
+    ],
+    "ePoint": [
+      1531.0,
+      1085.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      932.0,
+      1038.5
+    ],
+    "ePoint": [
+      1071.0,
+      1038.5
+    ],
+    "width": 17,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1022.059326171875,
+      1054.8653564453125
+    ],
+    "ePoint": [
+      939.0716552734375,
+      1055.8773193359375
+    ],
+    "width": 17,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1021.1431884765625,
+      1040.7066650390625
+    ],
+    "ePoint": [
+      1058.1431884765625,
+      1041.7066650390625
+    ],
+    "width": 10,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1058.0,
+      1048.0
+    ],
+    "ePoint": [
+      1064.0,
+      1048.0
+    ],
+    "width": 4,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      734.9999389648438,
+      1046.4998779296875
+    ],
+    "ePoint": [
+      651.9999389648438,
+      1046.4998779296875
+    ],
+    "width": 33,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      756.0,
+      1070.5
+    ],
+    "ePoint": [
+      652.0,
+      1070.5
+    ],
+    "width": 15,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      406.0,
+      1054.0
+    ],
+    "ePoint": [
+      295.0,
+      1054.0
+    ],
+    "width": 48,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      340.0,
+      1078.0
+    ],
+    "ePoint": [
+      340.0,
+      1085.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1475.0811767578125,
+      1022.5136108398438
+    ],
+    "ePoint": [
+      1473.9190673828125,
+      1029.486572265625
+    ],
+    "width": 5,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1478.0379638671875,
+      1039.162109375
+    ],
+    "ePoint": [
+      1387.9666748046875,
+      1040.247314453125
+    ],
+    "width": 20,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1604.0,
+      806.0
+    ],
+    "ePoint": [
+      1493.0,
+      806.0
+    ],
+    "width": 56,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1503.0,
+      834.0
+    ],
+    "ePoint": [
+      1503.0,
+      840.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      833.0,
+      805.5
+    ],
+    "ePoint": [
+      694.0,
+      805.5
+    ],
+    "width": 55,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      380.5,
+      2604.999755859375
+    ],
+    "ePoint": [
+      380.5,
+      2687.999755859375
+    ],
+    "width": 37,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      360.0,
+      2646.0
+    ],
+    "ePoint": [
+      360.0,
+      2660.0
+    ],
+    "width": 4,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      592.0,
+      2381.0
+    ],
+    "ePoint": [
+      592.0,
+      2401.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      595.5,
+      2401.0
+    ],
+    "ePoint": [
+      595.5,
+      2660.0
+    ],
+    "width": 1,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      588.5,
+      2660.0
+    ],
+    "ePoint": [
+      588.5,
+      2688.0
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      609.0,
+      2387.0
+    ],
+    "ePoint": [
+      609.0,
+      2674.0
+    ],
+    "width": 28,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      413.5,
+      2374.0
+    ],
+    "ePoint": [
+      413.5,
+      2394.0
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1114.5872802734375,
+      2359.568603515625
+    ],
+    "ePoint": [
+      1106.6597900390625,
+      2716.303466796875
+    ],
+    "width": 40,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1082.5,
+      2660.0
+    ],
+    "ePoint": [
+      1082.5,
+      2716.0
+    ],
+    "width": 21,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2028.0,
+      2178.0
+    ],
+    "ePoint": [
+      2028.0,
+      2184.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1741.5,
+      2010.0
+    ],
+    "ePoint": [
+      1741.5,
+      2562.0
+    ],
+    "width": 35,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1765.5,
+      2379.999755859375
+    ],
+    "ePoint": [
+      1765.5,
+      2575.999755859375
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1751.5,
+      2310.0
+    ],
+    "ePoint": [
+      1751.5,
+      2381.0
+    ],
+    "width": 15,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1762.0,
+      2296.0
+    ],
+    "ePoint": [
+      1762.0,
+      2310.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1755.0,
+      2030.0
+    ],
+    "ePoint": [
+      1755.0,
+      2297.0
+    ],
+    "width": 8,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1765.5,
+      2010.0
+    ],
+    "ePoint": [
+      1765.5,
+      2030.0
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1096.0,
+      1954.0
+    ],
+    "ePoint": [
+      1096.0,
+      1967.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      984.4910278320312,
+      1954.029541015625
+    ],
+    "ePoint": [
+      983.4193725585938,
+      2373.044677734375
+    ],
+    "width": 34,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      959.5,
+      2345.0
+    ],
+    "ePoint": [
+      959.5,
+      2387.0
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1262.0,
+      1947.0
+    ],
+    "ePoint": [
+      1262.0,
+      2569.0
+    ],
+    "width": 54,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1234.0,
+      1953.0
+    ],
+    "ePoint": [
+      1234.0,
+      1967.0
+    ],
+    "width": 2,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1241.5,
+      1967.0
+    ],
+    "ePoint": [
+      1241.5,
+      2353.0
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1233.9998779296875,
+      2351.999755859375
+    ],
+    "ePoint": [
+      1233.9998779296875,
+      2393.999755859375
+    ],
+    "width": 2,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1148.4998779296875,
+      1702.0
+    ],
+    "ePoint": [
+      1148.4998779296875,
+      1743.0
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1162.0,
+      1729.0
+    ],
+    "ePoint": [
+      1162.0,
+      1743.0
+    ],
+    "width": 14,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1495.5,
+      1667.0
+    ],
+    "ePoint": [
+      1495.5,
+      1701.0
+    ],
+    "width": 5,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1512.5,
+      1667.0
+    ],
+    "ePoint": [
+      1512.5,
+      1729.0
+    ],
+    "width": 29,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2066.5,
+      1632.0
+    ],
+    "ePoint": [
+      2066.5,
+      1988.0
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2080.5,
+      1988.0
+    ],
+    "ePoint": [
+      2080.5,
+      2044.0
+    ],
+    "width": 15,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2066.499755859375,
+      2044.0
+    ],
+    "ePoint": [
+      2066.499755859375,
+      2149.0
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2080.5,
+      2149.0
+    ],
+    "ePoint": [
+      2080.5,
+      2192.0
+    ],
+    "width": 15,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2056.0,
+      2185.0
+    ],
+    "ePoint": [
+      2056.0,
+      2317.0
+    ],
+    "width": 34,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2090.5,
+      1632.0
+    ],
+    "ePoint": [
+      2090.5,
+      2352.0
+    ],
+    "width": 35,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1011.5,
+      1051.0
+    ],
+    "ePoint": [
+      1011.5,
+      1127.0
+    ],
+    "width": 49,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      963.0,
+      1064.999755859375
+    ],
+    "ePoint": [
+      963.0,
+      1742.999755859375
+    ],
+    "width": 48,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      994.0,
+      1694.0
+    ],
+    "ePoint": [
+      994.0,
+      1743.0
+    ],
+    "width": 14,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      987.0,
+      1694.0
+    ],
+    "ePoint": [
+      987.0,
+      1575.0
+    ],
+    "width": 0,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      994.0,
+      1176.0
+    ],
+    "ePoint": [
+      994.0,
+      1575.0
+    ],
+    "width": 14,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      983.5,
+      1127.0
+    ],
+    "ePoint": [
+      983.5,
+      1176.0
+    ],
+    "width": 7,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2080.999755859375,
+      1043.9998779296875
+    ],
+    "ePoint": [
+      2080.999755859375,
+      1532.9998779296875
+    ],
+    "width": 42,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2105.0,
+      1498.0
+    ],
+    "ePoint": [
+      2105.0,
+      1519.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2101.499755859375,
+      1399.9998779296875
+    ],
+    "ePoint": [
+      2101.499755859375,
+      1498.9998779296875
+    ],
+    "width": 1,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      2105.0,
+      1044.0
+    ],
+    "ePoint": [
+      2105.0,
+      1400.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      312.5,
+      1044.0
+    ],
+    "ePoint": [
+      312.5,
+      2688.0
+    ],
+    "width": 49,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      340.0,
+      2646.0
+    ],
+    "ePoint": [
+      340.0,
+      2653.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      732.0,
+      1030.0
+    ],
+    "ePoint": [
+      732.0,
+      1043.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      745.5,
+      1030.0
+    ],
+    "ePoint": [
+      745.5,
+      1057.0
+    ],
+    "width": 21,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1601.0,
+      806.0
+    ],
+    "ePoint": [
+      1601.0,
+      833.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1487.5,
+      792.0
+    ],
+    "ePoint": [
+      1487.5,
+      1141.0
+    ],
+    "width": 31,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1505.0,
+      1141.0
+    ],
+    "ePoint": [
+      1505.0,
+      1163.0
+    ],
+    "width": 4,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1498.0,
+      1162.0
+    ],
+    "ePoint": [
+      1498.0,
+      1358.0
+    ],
+    "width": 10,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1512.0,
+      1358.0
+    ],
+    "ePoint": [
+      1512.0,
+      1387.0
+    ],
+    "width": 18,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1498.0,
+      1386.0
+    ],
+    "ePoint": [
+      1498.0,
+      1603.0
+    ],
+    "width": 10,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1515.0,
+      1022.0
+    ],
+    "ePoint": [
+      1515.0,
+      1603.0
+    ],
+    "width": 24,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1955.0,
+      2020.0
+    ],
+    "ePoint": [
+      1996.0,
+      2020.0
+    ],
+    "width": 20,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1720.0,
+      2010.0
+    ],
+    "ePoint": [
+      1720.0,
+      2016.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1450.5,
+      1912.0
+    ],
+    "ePoint": [
+      1450.5,
+      2020.0
+    ],
+    "width": 27,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1459.826904296875,
+      2001.134765625
+    ],
+    "ePoint": [
+      1461.438232421875,
+      2051.082763671875
+    ],
+    "width": 34,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1457.0,
+      1761.0
+    ],
+    "ePoint": [
+      1444.0,
+      1761.0
+    ],
+    "width": 6,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1198.0001220703125,
+      1706.0
+    ],
+    "ePoint": [
+      1188.0001220703125,
+      1716.0
+    ],
+    "width": 5,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1193.0113525390625,
+      1720.7603759765625
+    ],
+    "ePoint": [
+      1182.0113525390625,
+      1732.7603759765625
+    ],
+    "width": 8,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1178.6922607421875,
+      1729.5382080078125
+    ],
+    "ePoint": [
+      1175.6922607421875,
+      1731.5382080078125
+    ],
+    "width": 1,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1194.2353515625,
+      1706.55908203125
+    ],
+    "ePoint": [
+      1184.647216796875,
+      1744.912109375
+    ],
+    "width": 23,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1510.0,
+      1611.0
+    ],
+    "ePoint": [
+      1510.0,
+      1666.0
+    ],
+    "width": 34,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1499.5,
+      1366.0
+    ],
+    "ePoint": [
+      1499.5,
+      1379.0
+    ],
+    "width": 13,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      1113.0,
+      1040.0
+    ],
+    "ePoint": [
+      1079.0,
+      1040.0
+    ],
+    "width": 20,
+    "height": 0,
+    "isStructural": true
+  },
+  {
+    "sPoint": [
+      910.5,
+      1029.9998779296875
+    ],
+    "ePoint": [
+      910.5,
+      1077.9998779296875
+    ],
+    "width": 41,
+    "height": 0,
+    "isStructural": true
+  }
+]
