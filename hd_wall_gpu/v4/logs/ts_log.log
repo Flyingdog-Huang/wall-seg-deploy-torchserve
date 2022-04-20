@@ -1,0 +1,564 @@
+2022-04-19T09:46:07,660 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-04-19T09:46:07,660 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager - Initializing plugins manager...
+2022-04-19T09:46:07,836 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.3
+TS Home: /home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages
+Current directory: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4
+Temp directory: /tmp
+Number of GPUs: 1
+Number of CPUs: 16
+Max heap size: 3938 M
+Python executable: /home/hlx/miniconda3/envs/serve/bin/python
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4/model_store
+Initial Models: hd_wall_gpu.mar
+Log dir: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4/logs
+Metrics dir: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4/model_store
+Model config: N/A
+2022-04-19T09:46:07,836 [INFO ] main org.pytorch.serve.ModelServer - 
+Torchserve version: 0.5.3
+TS Home: /home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages
+Current directory: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4
+Temp directory: /tmp
+Number of GPUs: 1
+Number of CPUs: 16
+Max heap size: 3938 M
+Python executable: /home/hlx/miniconda3/envs/serve/bin/python
+Config file: N/A
+Inference address: http://127.0.0.1:8080
+Management address: http://127.0.0.1:8081
+Metrics address: http://127.0.0.1:8082
+Model Store: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4/model_store
+Initial Models: hd_wall_gpu.mar
+Log dir: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4/logs
+Metrics dir: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4/logs
+Netty threads: 0
+Netty client threads: 0
+Default workers per model: 1
+Blacklist Regex: N/A
+Maximum Response Size: 6553500
+Maximum Request Size: 6553500
+Limit Maximum Image Pixels: true
+Prefer direct buffer: false
+Allowed Urls: [file://.*|http(s)?://.*]
+Custom python dependency for model allowed: false
+Metrics report format: prometheus
+Enable metrics API: true
+Workflow Store: /media/hlx/Data/project/gitExchange/wall-seg-deploy-torchserve/hd_wall_gpu/v4/model_store
+Model config: N/A
+2022-04-19T09:46:07,850 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-04-19T09:46:07,850 [INFO ] main org.pytorch.serve.servingsdk.impl.PluginsManager -  Loading snapshot serializer plugin...
+2022-04-19T09:46:07,890 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: hd_wall_gpu.mar
+2022-04-19T09:46:07,890 [INFO ] main org.pytorch.serve.ModelServer - Loading initial models: hd_wall_gpu.mar
+2022-04-19T09:46:09,125 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model hd_wall_gpu
+2022-04-19T09:46:09,125 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model hd_wall_gpu
+2022-04-19T09:46:09,125 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model hd_wall_gpu
+2022-04-19T09:46:09,125 [DEBUG] main org.pytorch.serve.wlm.ModelVersionedRefs - Setting default version to 1.0 for model hd_wall_gpu
+2022-04-19T09:46:09,125 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model hd_wall_gpu loaded.
+2022-04-19T09:46:09,125 [INFO ] main org.pytorch.serve.wlm.ModelManager - Model hd_wall_gpu loaded.
+2022-04-19T09:46:09,126 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: hd_wall_gpu, count: 1
+2022-04-19T09:46:09,126 [DEBUG] main org.pytorch.serve.wlm.ModelManager - updateModel: hd_wall_gpu, count: 1
+2022-04-19T09:46:09,135 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-04-19T09:46:09,135 [DEBUG] W-9000-hd_wall_gpu_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/home/hlx/miniconda3/envs/serve/bin/python, /home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-04-19T09:46:09,135 [INFO ] main org.pytorch.serve.ModelServer - Initialize Inference server with: EpollServerSocketChannel.
+2022-04-19T09:46:09,135 [DEBUG] W-9000-hd_wall_gpu_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - Worker cmdline: [/home/hlx/miniconda3/envs/serve/bin/python, /home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/model_service_worker.py, --sock-type, unix, --sock-name, /tmp/.ts.sock.9000]
+2022-04-19T09:46:09,191 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-04-19T09:46:09,192 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -   File "/home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-04-19T09:46:09,193 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-04-19T09:46:09,193 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -   File "/home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-04-19T09:46:09,194 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-04-19T09:46:09,194 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -   File "/home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-04-19T09:46:09,194 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-04-19T09:46:09,195 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -   File "/home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-04-19T09:46:09,195 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -     import torch
+2022-04-19T09:46:09,195 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
+2022-04-19T09:46:09,198 [INFO ] W-9000-hd_wall_gpu_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-hd_wall_gpu_1.0-stderr
+2022-04-19T09:46:09,198 [INFO ] W-9000-hd_wall_gpu_1.0-stderr org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-hd_wall_gpu_1.0-stderr
+2022-04-19T09:46:09,198 [INFO ] W-9000-hd_wall_gpu_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-hd_wall_gpu_1.0-stdout
+2022-04-19T09:46:09,200 [WARN ] W-9000-hd_wall_gpu_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-hd_wall_gpu_1.0-stderr
+2022-04-19T09:46:09,200 [WARN ] W-9000-hd_wall_gpu_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-hd_wall_gpu_1.0-stderr
+2022-04-19T09:46:09,198 [INFO ] W-9000-hd_wall_gpu_1.0-stdout org.pytorch.serve.wlm.WorkerLifeCycle - Stopped Scanner - W-9000-hd_wall_gpu_1.0-stdout
+2022-04-19T09:46:09,200 [WARN ] W-9000-hd_wall_gpu_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-hd_wall_gpu_1.0-stdout
+2022-04-19T09:46:09,200 [WARN ] W-9000-hd_wall_gpu_1.0 org.pytorch.serve.wlm.WorkerLifeCycle - terminateIOStreams() threadName=W-9000-hd_wall_gpu_1.0-stdout
+2022-04-19T09:46:09,201 [ERROR] W-9000-hd_wall_gpu_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:139) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:292) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:179) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2022-04-19T09:46:09,201 [ERROR] W-9000-hd_wall_gpu_1.0 org.pytorch.serve.wlm.WorkerThread - Backend worker error
+org.pytorch.serve.wlm.WorkerInitializationException: Backend stream closed.
+	at org.pytorch.serve.wlm.WorkerLifeCycle.startWorker(WorkerLifeCycle.java:139) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.connect(WorkerThread.java:292) ~[model-server.jar:?]
+	at org.pytorch.serve.wlm.WorkerThread.run(WorkerThread.java:179) [model-server.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+2022-04-19T09:46:09,228 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-04-19T09:46:09,228 [INFO ] main org.pytorch.serve.ModelServer - Inference API bind to: http://127.0.0.1:8080
+2022-04-19T09:46:09,228 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-04-19T09:46:09,228 [INFO ] main org.pytorch.serve.ModelServer - Initialize Management server with: EpollServerSocketChannel.
+2022-04-19T09:46:09,230 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-04-19T09:46:09,230 [INFO ] main org.pytorch.serve.ModelServer - Management API bind to: http://127.0.0.1:8081
+2022-04-19T09:46:09,230 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-04-19T09:46:09,230 [INFO ] main org.pytorch.serve.ModelServer - Initialize Metrics server with: EpollServerSocketChannel.
+2022-04-19T09:46:09,231 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-04-19T09:46:09,231 [INFO ] main org.pytorch.serve.ModelServer - Metrics API bind to: http://127.0.0.1:8082
+2022-04-19T09:46:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:46:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:46:09,841 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:46:09,842 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.306568145751953|#Level:Host|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:46:09,843 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.1895866394043|#Level:Host|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:46:09,844 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.1|#Level:Host|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:46:09,845 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:46:09,845 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:46:09,845 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:20|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:46:09,846 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6900.00390625|#Level:Host|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:46:09,847 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:6753.4765625|#Level:Host|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:46:09,847 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:56.2|#Level:Host|#hostname:hlx,timestamp:1650332769
+2022-04-19T09:47:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:47:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:47:09,859 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:47:09,860 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.30630111694336|#Level:Host|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:47:09,860 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.18985366821289|#Level:Host|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:47:09,861 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.1|#Level:Host|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:47:09,861 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:47:09,862 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:47:09,863 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:26|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:47:09,863 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6819.421875|#Level:Host|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:47:09,863 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:6816.2578125|#Level:Host|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:47:09,864 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:56.7|#Level:Host|#hostname:hlx,timestamp:1650332829
+2022-04-19T09:48:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:48:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:48:09,847 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:48:09,848 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.30605697631836|#Level:Host|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:48:09,849 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.19009780883789|#Level:Host|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:48:09,849 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.1|#Level:Host|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:48:09,849 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:48:09,850 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:48:09,850 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:25|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:48:09,851 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6874.796875|#Level:Host|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:48:09,852 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:6796.71875|#Level:Host|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:48:09,852 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:56.4|#Level:Host|#hostname:hlx,timestamp:1650332889
+2022-04-19T09:49:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:49:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:49:09,911 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:09,911 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.305850982666016|#Level:Host|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:09,912 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.19030380249023|#Level:Host|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:09,912 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.1|#Level:Host|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:09,913 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:09,913 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:09,913 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:30|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:09,914 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6799.63671875|#Level:Host|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:09,914 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:6840.19140625|#Level:Host|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:09,915 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:56.8|#Level:Host|#hostname:hlx,timestamp:1650332949
+2022-04-19T09:49:32,154 [DEBUG] epollEventLoopGroup-3-1 org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model hd_wall_gpu
+2022-04-19T09:49:32,154 [DEBUG] epollEventLoopGroup-3-1 org.pytorch.serve.wlm.ModelVersionedRefs - Adding new version 1.0 for model hd_wall_gpu
+2022-04-19T09:49:32,159 [INFO ] epollEventLoopGroup-3-1 ACCESS_LOG - /127.0.0.1:42424 "POST /models?model_name=hd_wall_gpu&synchronous=false&url=hd_wall_gpu.mar&initial_workers=1 HTTP/1.1" 409 491
+2022-04-19T09:49:32,159 [INFO ] epollEventLoopGroup-3-1 TS_METRICS - Requests4XX.Count:1|#Level:Host|#hostname:hlx,timestamp:null
+2022-04-19T09:50:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:50:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:50:09,853 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:50:09,854 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.241100311279297|#Level:Host|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:50:09,855 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.25505447387695|#Level:Host|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:50:09,856 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:50:09,857 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:50:09,857 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:50:09,857 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:25|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:50:09,858 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6784.05859375|#Level:Host|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:50:09,858 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:6886.3046875|#Level:Host|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:50:09,859 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:56.9|#Level:Host|#hostname:hlx,timestamp:1650333009
+2022-04-19T09:51:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:51:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:51:09,845 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:51:09,846 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.240753173828125|#Level:Host|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:51:09,847 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.25540161132812|#Level:Host|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:51:09,847 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:51:09,848 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:51:09,848 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:51:09,849 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:22|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:51:09,849 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6550.69921875|#Level:Host|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:51:09,849 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7071.4296875|#Level:Host|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:51:09,849 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:58.4|#Level:Host|#hostname:hlx,timestamp:1650333069
+2022-04-19T09:52:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:52:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:52:09,859 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:52:09,868 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.238170623779297|#Level:Host|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:52:09,868 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.25798416137695|#Level:Host|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:52:09,869 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:52:09,869 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:52:09,869 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:52:09,870 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:19|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:52:09,870 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6337.75|#Level:Host|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:52:09,870 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7244.18359375|#Level:Host|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:52:09,870 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.8|#Level:Host|#hostname:hlx,timestamp:1650333129
+2022-04-19T09:53:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:53:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:53:09,864 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:53:09,866 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.237972259521484|#Level:Host|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:53:09,866 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.25818252563477|#Level:Host|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:53:09,867 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:53:09,867 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:53:09,867 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:53:09,867 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:22|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:53:09,868 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6319.31640625|#Level:Host|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:53:09,868 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7223.11328125|#Level:Host|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:53:09,868 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.9|#Level:Host|#hostname:hlx,timestamp:1650333189
+2022-04-19T09:54:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:54:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:54:09,871 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:54:09,872 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.237777709960938|#Level:Host|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:54:09,872 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.25837707519531|#Level:Host|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:54:09,873 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:54:09,873 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:54:09,873 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:54:09,873 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:27|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:54:09,873 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6213.49609375|#Level:Host|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:54:09,874 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7223.9296875|#Level:Host|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:54:09,874 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:60.6|#Level:Host|#hostname:hlx,timestamp:1650333249
+2022-04-19T09:55:09,584 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:55:09,584 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:55:09,864 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:55:09,865 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.237617492675781|#Level:Host|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:55:09,865 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.25853729248047|#Level:Host|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:55:09,865 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:55:09,865 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:55:09,866 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:55:09,866 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:26|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:55:09,866 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6346.4296875|#Level:Host|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:55:09,866 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7236.63671875|#Level:Host|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:55:09,867 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.7|#Level:Host|#hostname:hlx,timestamp:1650333309
+2022-04-19T09:56:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:56:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:56:09,859 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:56:09,860 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.237430572509766|#Level:Host|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:56:09,861 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.25872421264648|#Level:Host|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:56:09,861 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:56:09,862 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:56:09,862 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:56:09,862 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:21|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:56:09,862 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6364.44140625|#Level:Host|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:56:09,862 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7230.484375|#Level:Host|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:56:09,863 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.6|#Level:Host|#hostname:hlx,timestamp:1650333369
+2022-04-19T09:57:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:57:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:57:09,856 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:57:09,857 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.237323760986328|#Level:Host|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:57:09,858 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.25883102416992|#Level:Host|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:57:09,858 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:57:09,858 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:57:09,858 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:57:09,858 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:32|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:57:09,858 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6309.25390625|#Level:Host|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:57:09,859 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7253.78125|#Level:Host|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:57:09,859 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.9|#Level:Host|#hostname:hlx,timestamp:1650333429
+2022-04-19T09:58:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:58:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:58:09,860 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:58:09,861 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.237171173095703|#Level:Host|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:58:09,861 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.25898361206055|#Level:Host|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:58:09,861 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:58:09,862 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:58:09,862 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:58:09,862 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:25|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:58:09,863 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6361.3828125|#Level:Host|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:58:09,863 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7220.4609375|#Level:Host|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:58:09,863 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.6|#Level:Host|#hostname:hlx,timestamp:1650333489
+2022-04-19T09:59:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:59:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T09:59:09,842 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333549
+2022-04-19T09:59:09,843 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.236961364746094|#Level:Host|#hostname:hlx,timestamp:1650333549
+2022-04-19T09:59:09,843 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.25919342041016|#Level:Host|#hostname:hlx,timestamp:1650333549
+2022-04-19T09:59:09,844 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333549
+2022-04-19T09:59:09,844 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333549
+2022-04-19T09:59:09,844 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333549
+2022-04-19T09:59:09,844 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:30|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333549
+2022-04-19T09:59:09,844 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6343.0234375|#Level:Host|#hostname:hlx,timestamp:1650333549
+2022-04-19T09:59:09,845 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7234.734375|#Level:Host|#hostname:hlx,timestamp:1650333549
+2022-04-19T09:59:09,845 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.7|#Level:Host|#hostname:hlx,timestamp:1650333549
+2022-04-19T10:00:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:00:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:00:09,865 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:00:09,866 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.236743927001953|#Level:Host|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:00:09,867 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.2594108581543|#Level:Host|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:00:09,867 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:00:09,867 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:00:09,867 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:00:09,867 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:26|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:00:09,867 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6351.13671875|#Level:Host|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:00:09,868 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7197.8125|#Level:Host|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:00:09,868 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.7|#Level:Host|#hostname:hlx,timestamp:1650333609
+2022-04-19T10:01:09,584 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:01:09,584 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:01:09,850 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:01:09,851 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.236515045166016|#Level:Host|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:01:09,852 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.25963973999023|#Level:Host|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:01:09,852 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:01:09,852 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:01:09,852 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:01:09,852 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:25|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:01:09,853 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6354.234375|#Level:Host|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:01:09,853 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7199.69140625|#Level:Host|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:01:09,853 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.7|#Level:Host|#hostname:hlx,timestamp:1650333669
+2022-04-19T10:02:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:02:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:02:09,846 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:50.0|#Level:Host|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:02:09,847 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.236270904541016|#Level:Host|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:02:09,847 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.25988388061523|#Level:Host|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:02:09,848 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:02:09,848 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:02:09,848 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:02:09,848 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:24|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:02:09,848 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6376.48828125|#Level:Host|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:02:09,849 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7191.609375|#Level:Host|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:02:09,849 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.5|#Level:Host|#hostname:hlx,timestamp:1650333729
+2022-04-19T10:03:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:03:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:03:09,854 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:50.0|#Level:Host|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:03:09,855 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.236083984375|#Level:Host|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:03:09,856 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.26007080078125|#Level:Host|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:03:09,856 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:03:09,856 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:03:09,856 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:03:09,856 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:16|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:03:09,857 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6414.6015625|#Level:Host|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:03:09,857 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7166.6015625|#Level:Host|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:03:09,857 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.3|#Level:Host|#hostname:hlx,timestamp:1650333789
+2022-04-19T10:04:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:04:09,584 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:04:09,850 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:50.0|#Level:Host|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:04:09,851 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.235954284667969|#Level:Host|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:04:09,851 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.26020050048828|#Level:Host|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:04:09,851 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:04:09,851 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:04:09,852 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:04:09,852 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:25|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:04:09,853 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6406.359375|#Level:Host|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:04:09,853 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7172.40625|#Level:Host|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:04:09,853 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.3|#Level:Host|#hostname:hlx,timestamp:1650333849
+2022-04-19T10:05:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:05:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:05:09,852 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:05:09,852 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.235389709472656|#Level:Host|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:05:09,853 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.2607650756836|#Level:Host|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:05:09,853 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:05:09,853 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:05:09,854 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:05:09,854 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:20|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:05:09,854 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6261.00390625|#Level:Host|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:05:09,854 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7308.984375|#Level:Host|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:05:09,854 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:60.3|#Level:Host|#hostname:hlx,timestamp:1650333909
+2022-04-19T10:06:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:06:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:06:09,852 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:06:09,853 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.234321594238281|#Level:Host|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:06:09,853 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.26183319091797|#Level:Host|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:06:09,854 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:06:09,854 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:06:09,854 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:06:09,854 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:26|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:06:09,855 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6313.6640625|#Level:Host|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:06:09,855 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7283.54296875|#Level:Host|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:06:09,855 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.9|#Level:Host|#hostname:hlx,timestamp:1650333969
+2022-04-19T10:07:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:07:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:07:09,851 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:07:09,852 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.234272003173828|#Level:Host|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:07:09,852 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.26188278198242|#Level:Host|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:07:09,852 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:07:09,852 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:07:09,853 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:07:09,853 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:20|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:07:09,853 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6465.6875|#Level:Host|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:07:09,853 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7134.06640625|#Level:Host|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:07:09,853 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.0|#Level:Host|#hostname:hlx,timestamp:1650334029
+2022-04-19T10:08:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:08:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:08:09,849 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:08:09,849 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.2342529296875|#Level:Host|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:08:09,849 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.26190185546875|#Level:Host|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:08:09,850 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:08:09,850 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:08:09,850 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:08:09,851 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:20|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:08:09,851 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6466.6875|#Level:Host|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:08:09,851 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7133.96875|#Level:Host|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:08:09,851 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:58.9|#Level:Host|#hostname:hlx,timestamp:1650334089
+2022-04-19T10:09:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:09:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:09:09,849 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:09:09,849 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.234222412109375|#Level:Host|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:09:09,850 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.26193237304688|#Level:Host|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:09:09,850 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:09:09,850 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:09:09,850 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:09:09,850 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:26|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:09:09,851 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6426.87109375|#Level:Host|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:09:09,851 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7144.75|#Level:Host|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:09:09,851 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.2|#Level:Host|#hostname:hlx,timestamp:1650334149
+2022-04-19T10:10:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:10:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:10:09,856 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:10:09,857 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.234149932861328|#Level:Host|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:10:09,858 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.26200485229492|#Level:Host|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:10:09,859 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:10:09,859 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:10:09,859 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:10:09,859 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:25|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:10:09,859 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6436.13671875|#Level:Host|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:10:09,860 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7146.1953125|#Level:Host|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:10:09,860 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.1|#Level:Host|#hostname:hlx,timestamp:1650334209
+2022-04-19T10:11:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:11:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:11:09,852 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:11:09,853 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.234046936035156|#Level:Host|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:11:09,853 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.2621078491211|#Level:Host|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:11:09,853 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:11:09,854 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:11:09,854 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:11:09,854 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:24|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:11:09,854 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6398.96484375|#Level:Host|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:11:09,854 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7188.63671875|#Level:Host|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:11:09,854 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.4|#Level:Host|#hostname:hlx,timestamp:1650334269
+2022-04-19T10:12:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:12:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:12:09,852 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:12:09,853 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.233955383300781|#Level:Host|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:12:09,853 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.26219940185547|#Level:Host|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:12:09,853 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:12:09,853 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:12:09,853 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:12:09,853 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:21|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:12:09,853 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6404.03515625|#Level:Host|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:12:09,854 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7182.6015625|#Level:Host|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:12:09,854 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.3|#Level:Host|#hostname:hlx,timestamp:1650334329
+2022-04-19T10:13:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:13:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:13:09,849 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:13:09,850 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.23382568359375|#Level:Host|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:13:09,851 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.2623291015625|#Level:Host|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:13:09,851 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:13:09,851 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:13:09,852 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:13:09,852 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:21|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:13:09,852 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6385.97265625|#Level:Host|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:13:09,852 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7201.22265625|#Level:Host|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:13:09,852 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.5|#Level:Host|#hostname:hlx,timestamp:1650334389
+2022-04-19T10:14:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:14:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:14:09,855 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:14:09,856 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.233760833740234|#Level:Host|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:14:09,856 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.26239395141602|#Level:Host|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:14:09,856 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:14:09,856 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:14:09,856 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:14:09,857 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:21|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:14:09,857 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6336.61328125|#Level:Host|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:14:09,857 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7225.25390625|#Level:Host|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:14:09,857 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:59.8|#Level:Host|#hostname:hlx,timestamp:1650334449
+2022-04-19T10:15:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:15:09,583 [WARN ] pool-3-thread-1 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:15:09,880 [INFO ] pool-3-thread-1 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:15:09,881 [INFO ] pool-3-thread-1 TS_METRICS - DiskAvailable.Gigabytes:10.233585357666016|#Level:Host|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:15:09,881 [INFO ] pool-3-thread-1 TS_METRICS - DiskUsage.Gigabytes:76.26256942749023|#Level:Host|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:15:09,881 [INFO ] pool-3-thread-1 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:15:09,882 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:15:09,882 [INFO ] pool-3-thread-1 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:15:09,882 [INFO ] pool-3-thread-1 TS_METRICS - GPUUtilization.Percent:29|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:15:09,882 [INFO ] pool-3-thread-1 TS_METRICS - MemoryAvailable.Megabytes:6024.28515625|#Level:Host|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:15:09,882 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUsed.Megabytes:7395.41796875|#Level:Host|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:15:09,882 [INFO ] pool-3-thread-1 TS_METRICS - MemoryUtilization.Percent:61.8|#Level:Host|#hostname:hlx,timestamp:1650334509
+2022-04-19T10:16:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:16:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:16:09,847 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:16:09,847 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.232742309570312|#Level:Host|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:16:09,848 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.26341247558594|#Level:Host|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:16:09,848 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:16:09,848 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:16:09,849 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:16:09,849 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:21|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:16:09,849 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6201.06640625|#Level:Host|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:16:09,849 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7251.1953125|#Level:Host|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:16:09,849 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:60.6|#Level:Host|#hostname:hlx,timestamp:1650334569
+2022-04-19T10:17:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:17:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:17:09,856 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:17:09,856 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.23361587524414|#Level:Host|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:17:09,856 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.26253890991211|#Level:Host|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:17:09,856 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:17:09,857 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:17:09,857 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:17:09,857 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:26|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:17:09,857 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6206.82421875|#Level:Host|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:17:09,857 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7234.2421875|#Level:Host|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:17:09,857 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:60.6|#Level:Host|#hostname:hlx,timestamp:1650334629
+2022-04-19T10:18:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:18:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:18:09,845 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:18:09,845 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.233356475830078|#Level:Host|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:18:09,846 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.26279830932617|#Level:Host|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:18:09,846 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:18:09,846 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:18:09,846 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:18:09,846 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:21|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:18:09,846 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6378.34375|#Level:Host|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:18:09,847 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7224.43359375|#Level:Host|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:18:09,847 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.5|#Level:Host|#hostname:hlx,timestamp:1650334689
+2022-04-19T10:19:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:19:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:19:09,861 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:19:09,862 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.233161926269531|#Level:Host|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:19:09,863 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.26299285888672|#Level:Host|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:19:09,863 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:19:09,863 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:19:09,863 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:19:09,864 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:26|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:19:09,864 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6286.58203125|#Level:Host|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:19:09,864 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7257.6796875|#Level:Host|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:19:09,864 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:60.1|#Level:Host|#hostname:hlx,timestamp:1650334749
+2022-04-19T10:20:09,584 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:20:09,584 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:20:09,845 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:20:09,846 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.23297119140625|#Level:Host|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:20:09,847 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.26318359375|#Level:Host|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:20:09,847 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:20:09,847 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:20:09,847 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:20:09,847 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:20|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:20:09,847 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6335.3671875|#Level:Host|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:20:09,847 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7258.328125|#Level:Host|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:20:09,847 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.8|#Level:Host|#hostname:hlx,timestamp:1650334809
+2022-04-19T10:21:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:21:09,583 [WARN ] pool-3-thread-2 org.pytorch.serve.metrics.MetricCollector - worker pid is not available yet.
+2022-04-19T10:21:09,849 [INFO ] pool-3-thread-2 TS_METRICS - CPUUtilization.Percent:0.0|#Level:Host|#hostname:hlx,timestamp:1650334869
+2022-04-19T10:21:09,850 [INFO ] pool-3-thread-2 TS_METRICS - DiskAvailable.Gigabytes:10.232772827148438|#Level:Host|#hostname:hlx,timestamp:1650334869
+2022-04-19T10:21:09,851 [INFO ] pool-3-thread-2 TS_METRICS - DiskUsage.Gigabytes:76.26338195800781|#Level:Host|#hostname:hlx,timestamp:1650334869
+2022-04-19T10:21:09,851 [INFO ] pool-3-thread-2 TS_METRICS - DiskUtilization.Percent:88.2|#Level:Host|#hostname:hlx,timestamp:1650334869
+2022-04-19T10:21:09,851 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUtilization.Percent:0.9081735620585267|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334869
+2022-04-19T10:21:09,852 [INFO ] pool-3-thread-2 TS_METRICS - GPUMemoryUsed.Megabytes:54|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334869
+2022-04-19T10:21:09,852 [INFO ] pool-3-thread-2 TS_METRICS - GPUUtilization.Percent:23|#Level:Host,device_id:0|#hostname:hlx,timestamp:1650334869
+2022-04-19T10:21:09,852 [INFO ] pool-3-thread-2 TS_METRICS - MemoryAvailable.Megabytes:6444.625|#Level:Host|#hostname:hlx,timestamp:1650334869
+2022-04-19T10:21:09,852 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUsed.Megabytes:7183.98828125|#Level:Host|#hostname:hlx,timestamp:1650334869
+2022-04-19T10:21:09,852 [INFO ] pool-3-thread-2 TS_METRICS - MemoryUtilization.Percent:59.1|#Level:Host|#hostname:hlx,timestamp:1650334869

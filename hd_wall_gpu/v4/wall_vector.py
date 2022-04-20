@@ -226,7 +226,8 @@ def split_cnt(cnt, a, b, c, cnt_flag):
                 # print('np.array(new_cnt,np.int0) shape',np.array(new_cnt,np.int0).shape)
                 # print('cnts[0] shape',cnts[0].shape)
                 # print('np.array([[cx,cy]],np.int0) shape',np.array([[[cx,cy]]],np.int0).shape)
-                cnts[0] = np.concatenate((cnts[0], np.array([[[cx, cy]]], np.int0)))
+                cnts[0] = np.concatenate(
+                    (cnts[0], np.array([[[cx, cy]]], np.int0)))
                 return cnts
             elif f_e == 0 and f_s != 0:
                 # print('------------f_e==0------------')
@@ -468,8 +469,10 @@ def find_wall_lines(
                             l_now = (x1 - x2) ** 2 + (y1 - y2) ** 2
                             no_befor = line_map[y_line, x_line] - 1
                             l_befor = (
-                                (wall_lines[no_befor][0] - wall_lines[no_befor][2]) ** 2
-                                + (wall_lines[no_befor][1] - wall_lines[no_befor][3])
+                                (wall_lines[no_befor][0] -
+                                 wall_lines[no_befor][2]) ** 2
+                                + (wall_lines[no_befor][1] -
+                                   wall_lines[no_befor][3])
                                 ** 2
                             )
                             if l_now > l_befor:
@@ -479,7 +482,8 @@ def find_wall_lines(
             wall_line = [x1, y1, x2, y2]
             wall_lines.append(wall_line)
             # get direction
-            direc_line = [x1, y1, x5, y5] if mask1_p > mask2_p else [x1, y1, x3, y3]
+            direc_line = [x1, y1, x5, y5] if mask1_p > mask2_p else [
+                x1, y1, x3, y3]
             direc_lines.append(direc_line)
 
     return wall_lines, direc_lines, k_lines
@@ -493,7 +497,8 @@ def wall_vector(img_o, img_pre):
     # resize 0.8
     resize_shape = [int(img_shape[1] * 0.8), int(img_shape[0] * 0.8)]
     img_o = cv2.resize(img_o, resize_shape, interpolation=cv2.INTER_NEAREST)
-    img_pre = cv2.resize(img_pre, resize_shape, interpolation=cv2.INTER_NEAREST)
+    img_pre = cv2.resize(img_pre, resize_shape,
+                         interpolation=cv2.INTER_NEAREST)
 
     # get resize scale
     # resize_scale = 1
@@ -505,7 +510,8 @@ def wall_vector(img_o, img_pre):
     new_resize_shape = [
         resize_shape_size // resize_scale for resize_shape_size in resize_shape
     ]
-    img_pre = cv2.resize(img_pre, new_resize_shape, interpolation=cv2.INTER_NEAREST)
+    img_pre = cv2.resize(img_pre, new_resize_shape,
+                         interpolation=cv2.INTER_NEAREST)
     # img_wallLines = cv2.resize(img_o, new_resize_shape, interpolation=cv2.INTER_NEAREST)
 
     # process img
@@ -671,8 +677,10 @@ def wall_vector(img_o, img_pre):
                             l_now = (x1 - x2) ** 2 + (y1 - y2) ** 2
                             no_befor = line_map[y_line, x_line] - 1
                             l_befor = (
-                                (wall_lines[no_befor][0] - wall_lines[no_befor][2]) ** 2
-                                + (wall_lines[no_befor][1] - wall_lines[no_befor][3])
+                                (wall_lines[no_befor][0] -
+                                 wall_lines[no_befor][2]) ** 2
+                                + (wall_lines[no_befor][1] -
+                                   wall_lines[no_befor][3])
                                 ** 2
                             )
                             if l_now > l_befor:
@@ -682,7 +690,8 @@ def wall_vector(img_o, img_pre):
             wall_line = [x1, y1, x2, y2]
             wall_lines.append(wall_line)
             # get direction
-            direc_line = [x1, y1, x5, y5] if mask1_p > mask2_p else [x1, y1, x3, y3]
+            direc_line = [x1, y1, x5, y5] if mask1_p > mask2_p else [
+                x1, y1, x3, y3]
             direc_lines.append(direc_line)
 
     # # test wall lines
@@ -729,11 +738,14 @@ def wall_vector(img_o, img_pre):
                             ):
                                 # 赋值距离map(while逐步外探)
                                 dis_k_line_map[y_point, x_point] = r_detect
-                                no_dis_wall_line = line_map[y_detect, x_detect] - 1
+                                no_dis_wall_line = line_map[y_detect,
+                                                            x_detect] - 1
                                 this_wall_line = wall_lines[no_dis_wall_line]
                                 this_len = (
-                                    (this_wall_line[0] - this_wall_line[2]) ** 2
-                                    + (this_wall_line[1] - this_wall_line[3]) ** 2
+                                    (this_wall_line[0] -
+                                     this_wall_line[2]) ** 2
+                                    + (this_wall_line[1] -
+                                       this_wall_line[3]) ** 2
                                 ) ** 0.5
                                 # 赋值新的预测像素所属wall line的长度
                                 len_dis_k_line_map[y_point, x_point] = this_len
@@ -747,7 +759,7 @@ def wall_vector(img_o, img_pre):
                                 ]
                                 is_detected = True
                                 # if r_max == 999:
-                                    # print("r_detect:", r_detect)
+                                # print("r_detect:", r_detect)
                                 return
                 else:
                     for x_detect_r in [-r_detect, r_detect]:
@@ -757,7 +769,8 @@ def wall_vector(img_o, img_pre):
                             if [y_detect, x_detect] in has_detect_position:
                                 continue
                             else:
-                                has_detect_position.append([y_detect, x_detect])
+                                has_detect_position.append(
+                                    [y_detect, x_detect])
                                 # 若探测到wall line
                                 if (
                                     line_map[y_detect, x_detect] > 0
@@ -765,14 +778,18 @@ def wall_vector(img_o, img_pre):
                                 ):
                                     # 赋值距离map(while逐步外探)
                                     dis_k_line_map[y_point, x_point] = r_detect
-                                    no_dis_wall_line = line_map[y_detect, x_detect] - 1
+                                    no_dis_wall_line = line_map[y_detect,
+                                                                x_detect] - 1
                                     this_wall_line = wall_lines[no_dis_wall_line]
                                     this_len = (
-                                        (this_wall_line[0] - this_wall_line[2]) ** 2
-                                        + (this_wall_line[1] - this_wall_line[3]) ** 2
+                                        (this_wall_line[0] -
+                                         this_wall_line[2]) ** 2
+                                        + (this_wall_line[1] -
+                                           this_wall_line[3]) ** 2
                                     ) ** 0.5
                                     # 赋值新的预测像素所属wall line的长度
-                                    len_dis_k_line_map[y_point, x_point] = this_len
+                                    len_dis_k_line_map[y_point,
+                                                       x_point] = this_len
                                     # 赋值新的预测像素所属wall line的序号
                                     new_line_map[y_point, x_point] = line_map[
                                         y_detect, x_detect
@@ -802,10 +819,10 @@ def wall_vector(img_o, img_pre):
     # print("fill up k feature map")
     # wall line 方向的探测区域长度
     l_d = 8
-    
+
     # save the flag that pix is or not filled by same lines
     is_fill_by_same_line = np.zeros((y, x), np.uint8)
-    
+
     # create k map
     for i in range(len(wall_lines)):
         new_no = i + 1  # 此时的wall line编号
@@ -872,7 +889,8 @@ def wall_vector(img_o, img_pre):
                                     is_same_direct = (
                                         True
                                         if (
-                                            vector_wall_i_detect[0] * vector_wall_i[0]
+                                            vector_wall_i_detect[0] *
+                                            vector_wall_i[0]
                                             + vector_wall_i_detect[1] * vector_wall_i[1]
                                         )
                                         >= 0
@@ -938,7 +956,8 @@ def wall_vector(img_o, img_pre):
                                         > dis_pix_detect
                                     ):
                                         K_map[y_detect, x_detect] = max_k
-                                        new_line_map[y_detect, x_detect] = new_no
+                                        new_line_map[y_detect,
+                                                     x_detect] = new_no
                                         dis_k_line_map[
                                             y_detect, x_detect
                                         ] = dis_pix_detect
@@ -1004,7 +1023,8 @@ def wall_vector(img_o, img_pre):
                                     is_same_direct = (
                                         True
                                         if (
-                                            vector_wall_i_detect[0] * vector_wall_i[0]
+                                            vector_wall_i_detect[0] *
+                                            vector_wall_i[0]
                                             + vector_wall_i_detect[1] * vector_wall_i[1]
                                         )
                                         >= 0
@@ -1070,7 +1090,8 @@ def wall_vector(img_o, img_pre):
                                         > dis_pix_detect
                                     ):
                                         K_map[y_detect, x_detect] = 0
-                                        new_line_map[y_detect, x_detect] = new_no
+                                        new_line_map[y_detect,
+                                                     x_detect] = new_no
                                         dis_k_line_map[
                                             y_detect, x_detect
                                         ] = dis_pix_detect
@@ -1114,7 +1135,8 @@ def wall_vector(img_o, img_pre):
                         # 绘制探测线段
                         detection_line = np.zeros((y, x), np.uint8)
                         cv2.line(
-                            detection_line, (x_line, y_line), (int(x_k), int(y_k)), 1, 1
+                            detection_line, (x_line, y_line), (int(
+                                x_k), int(y_k)), 1, 1
                         )
 
                         # 根据探测标记进行探测:是否有相似斜率的wall line - 同向/成对做好标记返回
@@ -1169,7 +1191,8 @@ def wall_vector(img_o, img_pre):
                                                 # 探测端点 wall line 信息
                                                 # 探测点wall line编号
                                                 no_detect = (
-                                                    line_map[start_y, start_x] - 1
+                                                    line_map[start_y,
+                                                             start_x] - 1
                                                 )
                                                 # 探测点wall line方向
                                                 direct_detect = direc_lines[no_detect]
@@ -1249,7 +1272,8 @@ def wall_vector(img_o, img_pre):
                                     ):
                                         K_map[y_fill, x_fill] = k_line
                                         new_line_map[y_fill, x_fill] = new_no
-                                        dis_k_line_map[y_fill, x_fill] = dis_pix_detect
+                                        dis_k_line_map[y_fill,
+                                                       x_fill] = dis_pix_detect
                                 else:
                                     num_contect_black_pix += 1
                                 # 增加探测距离
@@ -1381,7 +1405,8 @@ def wall_vector(img_o, img_pre):
 
         # 反变换到原始尺寸
         resize_shape = (img_shape[1], img_shape[0])
-        rg_map = cv2.resize(rg_map, resize_shape, interpolation=cv2.INTER_NEAREST)
+        rg_map = cv2.resize(rg_map, resize_shape,
+                            interpolation=cv2.INTER_NEAREST)
 
         # # draw faeture
         # if k_rg == 0:
@@ -1392,7 +1417,8 @@ def wall_vector(img_o, img_pre):
         #     img_feature[:, :, 2] += rg_map
 
         # 拟合轮廓成矩形
-        contours, _ = cv2.findContours(rg_map, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+        contours, _ = cv2.findContours(
+            rg_map, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
         # ***基于:轮廓面积>area_thr---过滤杂点
         for cnt in contours:
@@ -1413,7 +1439,7 @@ def wall_vector(img_o, img_pre):
                 l2 = (points[2][0]-points[1][0])**2 + \
                     (points[2][1]-points[1][1])**2
                 min_l = l1 if l1 < l2 else l2
-                width_wall = int(min_l**0.5)
+                width_wall = min_l**0.5
                 x_e_vector = (points[0][0]+points[1][0]) / \
                     2 if min_l == l1 else (points[2][0]+points[1][0])/2
                 y_e_vector = (points[0][1]+points[1][1]) / \
@@ -1434,6 +1460,6 @@ def wall_vector(img_o, img_pre):
                 wall_vector['height'] = 0
                 wall_vector['isStructural'] = True
                 wall_vectors.append(wall_vector)
-                
+
     #    return wall_lines, img_pre, img_feature, img_vector   img_wallLines,K_map
     return wall_vectors

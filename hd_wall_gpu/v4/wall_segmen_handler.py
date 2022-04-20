@@ -81,74 +81,88 @@ class WallSegmentation(BaseHandler):
             weight_mask = torch.zeros(
                 1, 1, img.shape[0], img.shape[1]).to(device=self.device)
 
-            # # CPU
-            # for points in img_grids:
-            #     x1,x2,y1,y2=points
-            #     weight_mask[:,:,y1:y2,x1:x2]+=1
-            #     img_i=img[y1:y2,x1:x2,:]/255
-            #     img_i=img_i.transpose((2, 0, 1))
-            #     img_i = torch.from_numpy(img_i).float().to(device=self.device)
-            #     img_i = img_i.unsqueeze(0)
-            #     with torch.no_grad():
-            #         mask_pred[:,:,y1:y2,x1:x2] +=self.model.forward(img_i).to(device=self.device)
-
-            # GPU
-            batch_size = 2
-            tensor_list = []
-            tensor_input = None
-            # 拼接待推理tensor
-            i = 0
+            # CPU
             for points in img_grids:
-                i += 1
                 x1, x2, y1, y2 = points
-                weight_mask[:, :, y1:y2, x1:x2] += 1  # 更新权重
+                weight_mask[:, :, y1:y2, x1:x2] += 1
                 img_i = img[y1:y2, x1:x2, :]/255
                 img_i = img_i.transpose((2, 0, 1))
                 img_i = torch.from_numpy(img_i).float().to(device=self.device)
                 img_i = img_i.unsqueeze(0)
-                # 对于起始点的初始化
-                if i % batch_size == 1:
-                    tensor_input = img_i
-                    if i == len(img_grids):
-                        tensor_list.append(tensor_input)
-                        break
-                    continue
-                # 拼接当前tensor
-                tensor_input = torch.cat([tensor_input, img_i], 0)
-                # 对于末尾数据的提取操作
-                if i % batch_size == 0 or i == len(img_grids):
-                    tensor_list.append(tensor_input)
-                    continue
-            # 推理tensor并解构
-            i = 0  # 对应index
-            for tensor_input in tensor_list:
                 with torch.no_grad():
-                    img_i = self.model.forward(
-                        tensor_input).to(device=self.device)
-                    for img_i_j in img_i:
-                        x1, x2, y1, y2 = img_grids[i]  # 对应index边界位置
-                        # 拼接成全图
-                        mask_pred[:, :, y1:y2,
-                                  x1:x2] += img_i_j.unsqueeze(0).to(device=self.device)
-                        i += 1
+                    mask_pred[:, :, y1:y2,
+                              x1:x2] += self.model.forward(img_i).to(device=self.device)
+
+            # # GPU
+            # batch_size = 4
+            # tensor_list = []
+            # tensor_input = None
+            # # 拼接待推理tensor
+            # i = 0
+            # for points in img_grids:
+            #     i += 1
+            #     x1, x2, y1, y2 = points
+            #     weight_mask[:, :, y1:y2, x1:x2] += 1  # 更新权重
+            #     img_i = img[y1:y2, x1:x2, :]/255
+            #     img_i = img_i.transpose((2, 0, 1))
+            #     img_i = torch.from_numpy(img_i).float().to(device=self.device)
+            #     img_i = img_i.unsqueeze(0)
+            #     # 对于起始点的初始化
+            #     if i % batch_size == 1:
+            #         tensor_input = img_i
+            #         if i == len(img_grids):
+            #             tensor_list.append(tensor_input)
+            #             break
+            #         continue
+            #     # 拼接当前tensor
+            #     tensor_input = torch.cat([tensor_input, img_i], 0)
+            #     # 对于末尾数据的提取操作
+            #     if i % batch_size == 0 or i == len(img_grids):
+            #         tensor_list.append(tensor_input)
+            #         continue
+            # # 推理tensor并解构
+            # i = 0  # 对应index
+            # for tensor_input in tensor_list:
+            #     with torch.no_grad():
+            #         img_i = self.model.forward(
+            #             tensor_input).to(device=self.device)
+            #         for img_i_j in img_i:
+            #             x1, x2, y1, y2 = img_grids[i]  # 对应index边界位置
+            #             # 拼接成全图
+            #             mask_pred[:, :, y1:y2,
+            #                       x1:x2] += img_i_j.unsqueeze(0).to(device=self.device)
+            #             i += 1
 
             # tensor to np - (h,w)
             mask_pred = mask_pred/weight_mask
-            mask_pred = F.softmax(mask_pred, dim=1)[0]
-            tf = T.Compose([T.ToPILImage(),
-                            T.Resize((img.shape[0], img.shape[1])),
-                            T.ToTensor()])
-            mask_pred = tf(mask_pred).squeeze()
-            mask_pred = F.one_hot(mask_pred.argmax(
-                dim=0), n_classes).permute(2, 0, 1).numpy()
-            mask_pred = np.uint8(mask_pred[1]*255)
+
+            # mask_pred = F.softmax(mask_pred, dim=1)[0]
+            # tf = T.Compose([T.ToPILImage(),
+            #                 T.Resize((img.shape[0], img.shape[1])),
+            #                 T.ToTensor()])
+            # mask_pred = tf(mask_pred).squeeze()
+            # mask_pred = F.one_hot(mask_pred.argmax(
+            #     dim=0), n_classes).permute(2, 0, 1).numpy()
+            # mask_pred = np.uint8(mask_pred[1]*255)
+
             inf_data.append(mask_pred)
         return inf_data
 
     def postprocess(self, pre_data, inf_data):
         wall_vectors = []
         for image, probs in zip(pre_data, inf_data):
-            # process pridiction data - (h,w)->(c,h,w) -> (h,w,c)
+
+            # process pridiction data - tensor -> np(h,w)
+            probs = F.softmax(probs, dim=1)[0]
+            tf = T.Compose([T.ToPILImage(),
+                            T.Resize((image.shape[0], image.shape[1])),
+                            T.ToTensor()])
+            probs = tf(probs.cpu()).squeeze()
+            probs = F.one_hot(probs.argmax(
+                dim=0), n_classes).permute(2, 0, 1).numpy()
+            probs = np.uint8(probs[1]*255)
+
+            # (h,w)->(c,h,w) -> (h,w,c)
             img_pre = np.transpose(np.array([probs, probs, probs]), (1, 2, 0))
             # verctorizaton
             wall_vector_i = wall_vector(image, img_pre)

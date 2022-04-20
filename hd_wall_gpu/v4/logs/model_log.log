@@ -1,0 +1,10 @@
+2022-04-19T09:46:09,191 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG - Traceback (most recent call last):
+2022-04-19T09:46:09,192 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -   File "/home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/model_service_worker.py", line 17, in <module>
+2022-04-19T09:46:09,193 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -     from ts.model_loader import ModelLoaderFactory
+2022-04-19T09:46:09,193 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -   File "/home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/model_loader.py", line 16, in <module>
+2022-04-19T09:46:09,194 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -     from ts.service import Service
+2022-04-19T09:46:09,194 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -   File "/home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/service.py", line 14, in <module>
+2022-04-19T09:46:09,194 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -     from ts.protocol.otf_message_handler import create_predict_response
+2022-04-19T09:46:09,195 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -   File "/home/hlx/miniconda3/envs/serve/lib/python3.8/site-packages/ts/protocol/otf_message_handler.py", line 15, in <module>
+2022-04-19T09:46:09,195 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG -     import torch
+2022-04-19T09:46:09,195 [WARN ] W-9000-hd_wall_gpu_1.0-stderr MODEL_LOG - ModuleNotFoundError: No module named 'torch'
